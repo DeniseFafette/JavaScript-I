@@ -10,79 +10,91 @@
 // 5, adaine5@samsung.com, Antonietta, F
 
 // Example format of an intern object: 1, examples@you.edu, Example, F
-const example = {
-  id: 0,
-  name: "Example",
-  email: "examples@you.edu",
-  gender: "F",
-}
+// const example = {
+//   id: 0,
+//   name: "Example",
+//   email: "examples@you.edu",
+//   gender: "F",
+// }
 
 // Write your intern objects here:
 
-const intern = {
+let intern1 = {
   id: 0,
   fname: "Mitzi",
   email: "mmelloy0@psu.edu",
   gender: "F"
 }
 
-const intern = {
+let intern2 = {
   id: 1,
   fname: "Kennan",
   email: "kdiben1@tinypic.com",
   gender: "M"
 }
 
-const intern = {
+let intern3 = {
   id: 2,
   fname: "Keven",
   email: "kmummery2@wikimedia.org",
   gender: "M"
 }
 
-const intern = {
+let intern4 = {
   id: 3,
   fname: "Gannie",
   email: "gmartinson3@illinois.edu",
   gender: "M"
 }
 
-const intern = {
+let intern5 = {
   id: 4,
   fname: "Antonietta",
   email: "adaine5@samsung.com",
   gender: "F"
 }
 
+
 // ==== Challenge 2: Reading Object Data ==== 
 // Once your objects are created, log out the following requests from HR into the console:
 
 // Mitzi's name
 
-Console.log(intern.name[0]);
+console.log(intern1.fname);
 
-// Kennan's ID
+//Kennan's ID
 
-Console.log();
+console.log(intern2.id);
 
 // Keven's email
 
-Console.log();
+console.log(intern3.email);
 
 // Gannie's name
 
-Console.log();
+console.log(intern4.fname);
 
 // Antonietta's Gender
 
-Console.log();
+console.log(intern5.gender);
 
 // ==== Challenge 3: Object Methods ==== 
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
+
+// let kennan = {
+//   speak: function(){
+//   return 'Hello, my name is Kennan!'
+//   }
+// }
 // console.log(kennan.speak());
 
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
 //console.log(antonietta.multiplyNums(3,4));
+
+// function antoniMultiply (num1, num2){
+//   return num1 * num2
+// };
+// console.log(antoniMultiply(3,4));
 
 // === Great work! === Head over to the the arrays.js. You may come back and attempt the Stretch Challenge once you have completed the challenges in arrays.js and function-conversion.js.
 
@@ -93,7 +105,7 @@ Console.log();
 // 3. Nest a grandchild object in the child object with properties for name and age.  The name will be Sam and the age will be 30
 // 4. Give each of the objects the ability to speak their names using the this keyword.
 
-const parent = {}
+//const parent = {}
 
 // Log the parent object's name
 
